@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+<servlet>
+<servlet-name>Gerant</servlet-name>
+<servlet-class>controller.Gerant</servlet-class>
+<load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+<servlet-name>Gerant</servlet-name>
+<url-pattern>/Gerant</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>AdherentS</servlet-name>
+<servlet-class>controller.AdherentS</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AdherentS</servlet-name>
+<url-pattern>/AdherentS</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>GerantDash</servlet-name>
+<servlet-class>controller.GerantDash</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GerantDash</servlet-name>
+<url-pattern>/GerantDash</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>GerantDash2</servlet-name>
+<servlet-class>controller.GerantDash2</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GerantDash2</servlet-name>
+<url-pattern>/GerantDash2</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>GerantDash3</servlet-name>
+<servlet-class>controller.GerantDash3</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GerantDash3</servlet-name>
+<url-pattern>/GerantDash3</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>AdherentDash</servlet-name>
+<servlet-class>controller.AdherentDash</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AdherentDash</servlet-name>
+<url-pattern>/AdherentDash</url-pattern>
+</servlet-mapping>
+</web-app>
